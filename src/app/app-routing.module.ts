@@ -16,6 +16,10 @@ const routes: Routes = [
 {
   component:AuthLoginComponent,
   path:'app-auth-login'
+},
+{
+  component:AuthLoginComponent,
+  path:'app-auth1-login'
 }
 ];
 
