@@ -7,7 +7,7 @@ import { Injectable } from '@angular/core';
 export class ServiceService {
 
   constructor(private http:HttpClient) { }
-  loginUser{data:any}{
-    this.http.post{}
+  //loginUser{data:any}{
+  //  this.http.post{}
   }
-}
+

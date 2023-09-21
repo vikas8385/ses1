@@ -8,8 +8,7 @@ import { AuthLoginComponent } from './auth-login/auth-login.component';
 import { Auth1LoginComponent } from './auth1-login/auth1-login.component';
 import { RegisterFormComponent } from './register-form/register-form.component';
 import{ HttpClientModule} from '@angular/common/http';
-
-@NgModule({
+ @NgModule({
   declarations: [
     AppComponent,
     AuthLoginComponent,
