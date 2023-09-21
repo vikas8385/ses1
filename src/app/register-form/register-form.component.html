@@ -1,0 +1,20 @@
+<body>
+    <div class="login-container">
+        <h2>Registration</h2>
+        <form [formGroup]="logininput" (ngSubmit)="onSubmit()">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" formControlName="username" required>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" formControlName="password" required>
+            
+            <label for="confirmPassword">Confirm Password:</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" formControlName="confirmPassword" required>
+            
+            <button (click)="onSubmit()">Register</button>
+        </form>
+        <div class="footer">
+            Already have an account? <a routerLink="/app-auth-login">Login</a>
+        </div>
+    </div>
+</body>
